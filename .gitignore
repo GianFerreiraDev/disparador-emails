@@ -1,0 +1,41 @@
+# Ambiente e credenciais
+.env
+*.env
+config_local.py
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Dados sensíveis / arquivos gerados
+data/contatos.csv
+anexos/*
+!anexos/.gitkeep
+*.log
+logs/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter (se usado em prototipagem)
+.ipynb_checkpoints/
