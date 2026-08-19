@@ -2,16 +2,17 @@
 
 Este documento organiza a evolução planejada do projeto, da versão MVP até funcionalidades mais avançadas. Serve tanto como guia de desenvolvimento quanto como demonstração, para quem visitar o repositório, de visão de produto e capacidade de planejamento técnico.
 
-## 🚧 Fase 0 — MVP (em andamento)
+## ✅ Fase 0 — MVP (concluído)
 
 - [x] Estrutura inicial do projeto
-- [ ] Leitura de contatos via CSV com `pandas`
-- [ ] Personalização do corpo do e-mail com placeholders (`{nome}`)
-- [ ] Montagem de e-mail com `email.mime` (corpo + anexo)
-- [ ] Envio via `smtplib` (SMTP_SSL)
-- [ ] Autenticação via variáveis de ambiente (`.env`)
-- [ ] Log de sucesso/falha por contato
+- [x] Leitura de contatos via CSV com `pandas`
+- [x] Personalização do corpo do e-mail com placeholders (`{nome}`)
+- [x] Montagem de e-mail com `email.mime` (corpo + anexo)
+- [x] Envio via `smtplib` (SMTP_SSL)
+- [x] Autenticação via variáveis de ambiente (`.env`)
+- [x] Log de sucesso/falha por contato
 - [x] README com instruções de setup
+- [x] Testes unitários do `email_sender.py` (mockando SMTP) — antecipado da Fase 1
 
 ## 🔜 Fase 1 — Robustez e qualidade
 
