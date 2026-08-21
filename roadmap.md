@@ -12,6 +12,7 @@ Este documento organiza a evolução planejada do projeto, da versão MVP até f
 - [x] Autenticação via variáveis de ambiente (`.env`)
 - [x] Log de sucesso/falha por contato
 - [x] README com instruções de setup
+- [x] Testes unitários do `email_sender.py` (mockando SMTP) — antecipado da Fase 1
 
 ## 🔜 Fase 1 — Robustez e qualidade
 

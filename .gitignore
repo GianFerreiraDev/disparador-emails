@@ -28,6 +28,9 @@ htmlcov/
 data/contatos.csv
 anexos/*
 !anexos/.gitkeep
+# Permitir anexos de exemplo (didáticos) versionados
+!anexos/proposta_joao.pdf
+!anexos/proposta_maria.pdf
 *.log
 logs/
 
